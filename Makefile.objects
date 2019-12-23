@@ -1,0 +1,84 @@
+gd.lo: /home/weijian/projects/php-7.2.10/ext/gd/gd.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/gd.c -o gd.lo 
+libgd/gd.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd.c -o libgd/gd.lo 
+libgd/gd_gd.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_gd.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_gd.c -o libgd/gd_gd.lo 
+libgd/gd_gd2.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_gd2.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_gd2.c -o libgd/gd_gd2.lo 
+libgd/gd_io.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_io.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_io.c -o libgd/gd_io.lo 
+libgd/gd_io_dp.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_io_dp.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_io_dp.c -o libgd/gd_io_dp.lo 
+libgd/gd_io_file.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_io_file.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_io_file.c -o libgd/gd_io_file.lo 
+libgd/gd_ss.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_ss.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_ss.c -o libgd/gd_ss.lo 
+libgd/gd_io_ss.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_io_ss.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_io_ss.c -o libgd/gd_io_ss.lo 
+libgd/gd_webp.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_webp.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_webp.c -o libgd/gd_webp.lo 
+libgd/gd_png.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_png.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_png.c -o libgd/gd_png.lo 
+libgd/gd_jpeg.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_jpeg.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_jpeg.c -o libgd/gd_jpeg.lo 
+libgd/gdxpm.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdxpm.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdxpm.c -o libgd/gdxpm.lo 
+libgd/gdfontt.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdfontt.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdfontt.c -o libgd/gdfontt.lo 
+libgd/gdfonts.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdfonts.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdfonts.c -o libgd/gdfonts.lo 
+libgd/gdfontmb.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdfontmb.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdfontmb.c -o libgd/gdfontmb.lo 
+libgd/gdfontl.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdfontl.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdfontl.c -o libgd/gdfontl.lo 
+libgd/gdfontg.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdfontg.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdfontg.c -o libgd/gdfontg.lo 
+libgd/gdtables.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdtables.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdtables.c -o libgd/gdtables.lo 
+libgd/gdft.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdft.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdft.c -o libgd/gdft.lo 
+libgd/gdcache.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdcache.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdcache.c -o libgd/gdcache.lo 
+libgd/gdkanji.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdkanji.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdkanji.c -o libgd/gdkanji.lo 
+libgd/wbmp.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/wbmp.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/wbmp.c -o libgd/wbmp.lo 
+libgd/gd_wbmp.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_wbmp.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_wbmp.c -o libgd/gd_wbmp.lo 
+libgd/gdhelpers.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdhelpers.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gdhelpers.c -o libgd/gdhelpers.lo 
+libgd/gd_topal.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_topal.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_topal.c -o libgd/gd_topal.lo 
+libgd/gd_gif_in.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_gif_in.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_gif_in.c -o libgd/gd_gif_in.lo 
+libgd/gd_xbm.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_xbm.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_xbm.c -o libgd/gd_xbm.lo 
+libgd/gd_gif_out.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_gif_out.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_gif_out.c -o libgd/gd_gif_out.lo 
+libgd/gd_security.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_security.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_security.c -o libgd/gd_security.lo 
+libgd/gd_filter.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_filter.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_filter.c -o libgd/gd_filter.lo 
+libgd/gd_pixelate.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_pixelate.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_pixelate.c -o libgd/gd_pixelate.lo 
+libgd/gd_rotate.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_rotate.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_rotate.c -o libgd/gd_rotate.lo 
+libgd/gd_color_match.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_color_match.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_color_match.c -o libgd/gd_color_match.lo 
+libgd/gd_transform.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_transform.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_transform.c -o libgd/gd_transform.lo 
+libgd/gd_crop.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_crop.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_crop.c -o libgd/gd_crop.lo 
+libgd/gd_interpolation.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_interpolation.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_interpolation.c -o libgd/gd_interpolation.lo 
+libgd/gd_matrix.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_matrix.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_matrix.c -o libgd/gd_matrix.lo 
+libgd/gd_bmp.lo: /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_bmp.c
+	$(LIBTOOL) --mode=compile $(CC) $(GDLIB_CFLAGS) -I. -I/home/weijian/projects/php-7.2.10/ext/gd $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/weijian/projects/php-7.2.10/ext/gd/libgd/gd_bmp.c -o libgd/gd_bmp.lo 
+$(phplibdir)/gd.la: ./gd.la
+	$(LIBTOOL) --mode=install cp ./gd.la $(phplibdir)
+
+./gd.la: $(shared_objects_gd) $(GD_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_gd) $(GD_SHARED_LIBADD)
+
